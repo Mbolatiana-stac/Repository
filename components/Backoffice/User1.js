@@ -308,6 +308,232 @@ function User1(){
                 }}></Image>
                 
             </View>
+
+            <ScrollView horizontal={true}>
+
+            <View style={{
+                marginLeft:20,
+                marginTop:10
+            }}>
+                <Image source={require('../../img/profile2.jpg')} style={{
+                        borderRadius:5,
+                        width:170,
+                        height:230,
+                        marginHorizontal:5
+                }}></Image>
+
+                    <View style={{
+                        position:'absolute',
+                        
+                    }}>
+                        <View style={{
+                            flexDirection:'row'
+                        }}>
+
+                            <Image source={require('../../img/triangle_femme.png')} style={{
+                                width:40,
+                                height:40,
+                                marginLeft:135
+                            }}></Image>
+                        </View>
+                    <Text style={{
+                            marginTop:65,
+                            color:'white',
+                            fontWeight:'bold',
+                            marginLeft:20
+                    }}>Isalsa</Text>
+
+                        <Text style={{
+                            marginTop:15,
+                            color:'white',
+                            marginLeft:20,
+                            
+                        }}>Toulouse</Text>
+
+                        <Text style={{
+                            color:'white',
+                            fontWeight:'bold',
+                            marginLeft:20,
+                        }}>France</Text>
+
+                        <View style={{
+                            flexDirection:'row',
+                            marginTop:15
+                        }}>
+                            <Image source={require('../../img/Coeur_new.png')} style={{
+                                marginLeft:15,
+                                width:25,
+                                height:20
+                            }}></Image>
+                            <Image source={require('../../img/message_vip.png')} style={{
+                                marginLeft:15,
+                                width:25,
+                                height:20
+                            }}></Image>
+                            <Image source={require('../../img/fleur_new.png')} style={{
+                                marginLeft:15,
+                                width:25,
+                                height:40
+                            }}></Image>
+                            <Image source={require('../../img/Kiss.png')} style={{
+                                marginLeft:15,
+                                width:25,
+                                height:20
+                            }}></Image>
+                        </View>
+                    </View>
+                </View>
+
+            <View style={{
+                marginLeft:20,
+                marginTop:10
+            }}>
+                <Image source={require('../../img/profile3.png')} style={{
+                        borderRadius:5,
+                        width:170,
+                        height:230,
+                        marginHorizontal:5
+                }}></Image>
+
+                    <View style={{
+                        position:'absolute',
+                        
+                    }}>
+                        <View style={{
+                            flexDirection:'row'
+                        }}>
+                            
+                            <Image source={require('../../img/triangle_femme.png')} style={{
+                                width:40,
+                                height:40,
+                                marginLeft:135
+                            }}></Image>
+                        </View>
+                    <Text style={{
+                            marginTop:65,
+                            color:'white',
+                            fontWeight:'bold',
+                            marginLeft:20
+                    }}>Isalsa</Text>
+
+                        <Text style={{
+                            marginTop:15,
+                            color:'white',
+                            marginLeft:20,
+                            
+                        }}>Toulouse</Text>
+
+                        <Text style={{
+                            color:'white',
+                            fontWeight:'bold',
+                            marginLeft:20,
+                        }}>France</Text>
+
+                        <View style={{
+                            flexDirection:'row',
+                            marginTop:15
+                        }}>
+                            <Image source={require('../../img/Coeur_new.png')} style={{
+                                marginLeft:15,
+                                width:25,
+                                height:20
+                            }}></Image>
+                            <Image source={require('../../img/message_vip.png')} style={{
+                                marginLeft:15,
+                                width:25,
+                                height:20
+                            }}></Image>
+                            <Image source={require('../../img/fleur_new.png')} style={{
+                                marginLeft:15,
+                                width:25,
+                                height:40
+                            }}></Image>
+                            <Image source={require('../../img/Kiss.png')} style={{
+                                marginLeft:15,
+                                width:25,
+                                height:20
+                            }}></Image>
+                        </View>
+                    </View>
+                </View>
+
+            <View style={{
+                marginLeft:20,
+                marginTop:10
+            }}>
+                <Image source={require('../../img/profile4.jpg')} style={{
+                        borderRadius:5,
+                        width:170,
+                        height:230,
+                        marginHorizontal:5
+                }}></Image>
+
+                    <View style={{
+                        position:'absolute',
+                        
+                    }}>
+                        <View style={{
+                            flexDirection:'row'
+                        }}>
+
+                            <Image source={require('../../img/triangle_femme.png')} style={{
+                                width:40,
+                                height:40,
+                                marginLeft:135
+                            }}></Image>
+                        </View>
+                    <Text style={{
+                            marginTop:65,
+                            color:'white',
+                            fontWeight:'bold',
+                            marginLeft:20
+                    }}>Isalsa</Text>
+
+                        <Text style={{
+                            marginTop:15,
+                            color:'white',
+                            marginLeft:20,
+                            
+                        }}>Toulouse</Text>
+
+                        <Text style={{
+                            color:'white',
+                            fontWeight:'bold',
+                            marginLeft:20,
+                        }}>France</Text>
+
+                        <View style={{
+                            flexDirection:'row',
+                            marginTop:15
+                        }}>
+                            <Image source={require('../../img/Coeur_new.png')} style={{
+                                marginLeft:15,
+                                width:25,
+                                height:20
+                            }}></Image>
+                            <Image source={require('../../img/message_vip.png')} style={{
+                                marginLeft:15,
+                                width:25,
+                                height:20
+                            }}></Image>
+                            <Image source={require('../../img/fleur_new.png')} style={{
+                                marginLeft:15,
+                                width:25,
+                                height:40
+                            }}></Image>
+                            <Image source={require('../../img/Kiss.png')} style={{
+                                marginLeft:15,
+                                width:25,
+                                height:20
+                            }}></Image>
+                        </View>
+                    </View>
+                </View>
+            </ScrollView>
+
+            <View>
+                <Text style={{marginTop:20,marginLeft:20, fontSize:30, fontWeight:'bold', color:'#007bff'}}>Membres</Text>
+            </View>
         
             
 
