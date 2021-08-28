@@ -255,10 +255,61 @@ function User1(){
                             }}></Image>
                         </View>
                     </View>
+                   
                 </View> 
+                
             </ScrollView>        
             
             </View>
+            <View>
+                <Text style={{marginLeft:20, fontSize:30, fontWeight:'bold'}}>En ligne</Text>
+            </View>
+
+            <View style={{
+                alignItems:'center',
+                height:50,
+                marginTop:12
+            }}>
+                
+                <Image source={require('../../img/Button_enable.png')} style={{
+                    position:'absolute',
+                    
+                }}></Image>
+                <Text style={{
+                    marginTop:12,
+                    color:'#e70083',
+                    fontWeight:'bold'
+                }}>Près de votre région</Text>
+            </View>
+
+            <View style={{
+                alignItems:'center',
+                height:50
+            }}>
+                
+                <Image source={require('../../img/Boutton_disable.png')} style={{
+                    position:'absolute',
+                    
+                }}></Image>
+                <Text style={{
+                    marginTop:5,
+                    color:'#007bff',
+                    fontWeight:'bold'
+                }}>Vos personnalités</Text>
+            </View>
+
+            <View style={{
+                marginTop:-20,
+                alignItems:'center',
+                height:50,
+            }}>
+                <Image source={require('../../img/voir_tous.png')} style={{
+                    
+                }}></Image>
+                
+            </View>
+        
+            
 
             </ScrollView>
         </View>
