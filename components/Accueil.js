@@ -175,6 +175,13 @@ function Accueil(){
           
       </Modal>
 
+      <View>
+
+      <ScrollView
+        style={{
+        backgroundColor : 'transparent',                   
+      }}>
+
             <Image source = {require('../img/back2.png')} style={{
                     position : 'absolute',
                     top : 0,
@@ -182,12 +189,9 @@ function Accueil(){
                     right : 0,
                     bottom : 0,
                     width : Dimensions.get("window").width,
-                    height : 900
+                    height : 1530
                 }}></Image>
-            <ScrollView
-                    style={{
-                    backgroundColor : 'transparent',                   
-                }}>
+            
                    <View style={{
                         flexDirection:'row', 
                         backgroundColor:'#f8f9fa',
@@ -212,7 +216,7 @@ function Accueil(){
                     marginHorizontal:10,
                     backgroundColor:'#000000',
                     height:750,
-                    opacity:0.7,
+                    opacity:0.6,
                 }}>
                     <View style={{
                     alignItems:'center' }}>
@@ -384,10 +388,379 @@ function Accueil(){
                     
                 </View> 
 
+                <View style={{
+                    flexDirection:'row',
+                    marginTop: 20,
+                    marginHorizontal: 20,
+                    alignItems:'center',
+                    borderRadius: 25,
+                    backgroundColor:'#00aeef',
+                }}>
+                    <View style={{
+                        paddingVertical:40,
+                        paddingLeft:40
+                    }}>
+                        <Image source={require('../img/icone1.png')}></Image>
+                    </View>
+
+                    <View style={{
+                        paddingVertical:20,
+                        paddingLeft:40,
+                        alignItems:'center'
+                    }}>
+                        <View style={{
+                            flexDirection:'row',
+                            marginBottom:10
+                        }}>
+                            <Text style={{
+                                backgroundColor:'white',
+                                padding:7,
+                                borderRadius:3,
+                                marginHorizontal:3
+                            }}>2</Text>
+                            <Text style={{
+                                backgroundColor:'white',
+                                padding:7,
+                                borderRadius:3,
+                                marginHorizontal:3
+                            }}>8</Text>
+                            <Text style={{
+                                backgroundColor:'white',
+                                padding:7,
+                                borderRadius:3,
+                                marginHorizontal:3
+                            }}>6</Text>
+                            <Text style={{
+                                backgroundColor:'white',
+                                padding:7,
+                                borderRadius:3,
+                                marginHorizontal:3
+                            }}>6</Text>
+                            <Text style={{
+                                backgroundColor:'white',
+                                padding:7,
+                                borderRadius:3,
+                                marginHorizontal:2
+                            }}>2</Text>
+                            <Text style={{
+                                backgroundColor:'white',
+                                padding:7,
+                                borderRadius:3,
+                                marginHorizontal:3
+                            }}>1</Text>
+                        </View>
+                        <Text style={{color:'white', fontSize:18}}>Personnes déja inscrites sur </Text>
+                        <Text style={{color:'white', fontSize:18}}>Last-chance-dating </Text>
+                    </View>     
+                </View> 
+
+                <View style={{
+                    flexDirection:'row',
+                    marginTop: 20,
+                    marginHorizontal: 20,
+                    alignItems:'center',
+                    borderRadius: 25,
+                    backgroundColor:'#00aeef',
+                }}>
+                    <View style={{
+                        paddingVertical:20,
+                        paddingLeft:40
+                    }}>
+                        <Image source={require('../img/icone2.png')}></Image>
+                    </View>
+
+                    <View style={{
+                        paddingVertical:10,
+                        paddingLeft:40,
+                        alignItems:'center'
+                    }}>
+                        <View style={{
+                            marginBottom:10,
+                            alignItems:'center'
+                        }}>
+                            <Text style={{
+                                color:'white', 
+                                fontSize:30,
+                                fontWeight:'bold'
+                            }}>111 . 408</Text>
+                               <Image source={require('../img/line2.png')}></Image>
+                        </View>
+                        <Text style={{color:'white', fontSize:18}}>Personnes connectées sur Last-</Text>
+                        <Text style={{color:'white', fontSize:18}}>chance-dating en ce moment </Text>
+                    </View>     
+                </View> 
+
+                <View style={{
+                    flexDirection:'row',
+                    marginTop: 20,
+                    marginHorizontal: 20,
+                    alignItems:'center',
+                    borderRadius: 25,
+                    backgroundColor:'#00aeef',
+                    marginBottom:20
+                }}>
+                    <View style={{
+                        paddingVertical:40,
+                        paddingLeft:10
+                    }}>
+                        <Image source={require('../img/Verifi3.png')}></Image>
+                    </View>
+                    <View style={{
+                        paddingLeft:100
+                    }}>
+                        <Image source={require('../img/securite.png')} style={{
+                            width:100,
+                            height:100
+                        }}></Image>
+                    </View>
+
+                        
+                </View>  
+                <View style={{
+                    marginHorizontal:20,
+                    marginVertical:50,
+                    alignItems:'center'
+                    
+                }}>
+                    <Image source={require('../img/imgpsh_fullsize_anim.png')} style={{
+                        borderRadius:10
+                    }}></Image>
+                    <View style={{
+                        position:'absolute',
+                        alignItems:'center'
+                    }}>
+                    <View>
+                        <Image source={require('../img/icone-celibataire.png')} style={{
+                            marginVertical:20
+                        }}></Image>
+
+                        
+                    </View>
+
+                    
+                    <View style={{
+                        alignItems:'center'
+                    }}>
+                        <Text style={{
+                            color:'white',
+                            fontSize:30
+                        }}>Vous êtes célibataires?</Text>
+                        <View style={{
+                            marginVertical:20,
+                            marginHorizontal:10,
+                            alignItems:'stretch'
+                        }}>
+                        <Text adjustsFontSizeToFit={true} style={{
+                            color:'white',
+                            fontSize:20,
+                            textAlign:'justify'
+                        }}>
+                            Vous êtes du genre timide ? La vie de célibataire ne vous convient plus ? Vous cherchez un peu de compagnie pour casser la monotonie de vos quotidiens ? Peu importe les raisons qui vous ont poussées à sauter le pas et d’essayer les sites de rencontres, mais une chose est sure, si vous êtes sur Last-Chance-dating®, ce n’est pas par hasard et vous avez bien fait !
+                        </Text>
+                        <TouchableOpacity style={{
+                            alignItems:'center',
+                            marginTop:20
+                        }}>
+                            <Image source={require('../img/btn-en-savoir.png')}></Image>
+                        </TouchableOpacity>
+                        </View>
+                        
+                        
+                    </View>
+                        
+                    </View>
+                
+                </View>
+
+                <View style={{
+                    marginHorizontal:20,
+                    alignItems:'center'
+                    
+                }}>
+                    <Image source={require('../img/img2.png')} style={{
+                        borderRadius:10
+                    }}></Image>
+                <View style={{
+                    position:'absolute',
+                    alignItems:'center'
+                 }}>
+                    <View>
+                        <Image source={require('../img/icone-33.png')} style={{
+                            marginVertical:10
+                        }}></Image>
+
+                        
+                    </View>
+
+                    
+                    <View style={{
+                        alignItems:'center'
+                    }}>
+                        <Text style={{
+                            color:'white',
+                            fontSize:30
+                        }}>Votre profil?</Text>
+                        <View style={{
+                            marginVertical:20,
+                            marginHorizontal:10,
+                            alignItems:'stretch'
+                        }}>
+                        <Text adjustsFontSizeToFit={true} style={{
+                            color:'white',
+                            fontSize:20,
+                            textAlign:'justify'
+                        }}>
+                            Ça y est, vous avez enfin décidé de prendre les choses en main et de partir à la conquête de l’amour, ou une histoire éphémère ? Avant de vous inscrire sur Last-Chance-dating®, vous devez penser à bien remplir votre profil, mais ce n’est pas chose facile. Qu’est-ce que vous allez y mettre ? Quelles sont les choses essentielles à écrire sur vous pour vous mettre en valeur
+                        </Text>
+                        <TouchableOpacity style={{
+                            alignItems:'center',
+                            marginTop:20
+                        }}>
+                            <Image source={require('../img/btn-en-savoir.png')}></Image>
+                        </TouchableOpacity>
+                        </View>
+                        
+                        
+                    </View>
+                        
+                    </View>
+                
+                </View>
+
+                <View style={{
+                    marginHorizontal:20,
+                    alignItems:'center',
+                    marginVertical:50
+                    
+                }}>
+                    <Image source={require('../img/img3.png')} style={{
+                        borderRadius:10
+                    }}></Image>
+                    <View style={{
+                        position:'absolute',
+                        alignItems:'center'
+                    }}>
+                    <View>
+                        <Image source={require('../img/icone-help.png')} style={{
+                            marginVertical:10
+                        }}></Image>
+
+                        
+                    </View>
+
+                    
+                    <View style={{
+                        alignItems:'center'
+                    }}>
+                        <Text style={{
+                            color:'white',
+                            fontSize:30
+                        }}>Comment ça marche?</Text>
+                        <View style={{
+                            marginVertical:20,
+                            marginHorizontal:10,
+                            alignItems:'stretch'
+                        }}>
+                        <Text adjustsFontSizeToFit={true} style={{
+                            color:'white',
+                            fontSize:20,
+                            textAlign:'justify'
+                        }}>
+                            Last-Chance-dating® vient récemment de faire son entrée en scène en se plaçant aux côtés des sites de rencontre en ligne sérieux les plus réputés. Nous visons très haut en proposant aux célibataires, un accompagnement et une assistance complète dès leur inscription, jusqu’à la conclusion finale qui les a amenés sur notre site. Un coach en séduction efficace et sympathique...
+                        </Text>
+                        <TouchableOpacity style={{
+                            alignItems:'center',
+                            marginTop:15
+                        }}>
+                            <Image source={require('../img/btn-en-savoir.png')}></Image>
+                        </TouchableOpacity>
+                        </View> 
+                    </View>  
+                    </View>
+                </View>
+
+                <View style={{
+                    marginHorizontal:10,
+                    backgroundColor:'#bdb8b8',
+                    alignItems:'center'
+                }}>
+                    <Image source={require('../img/img-block2.png')} style={{
+                        height:800,
+                        width:Dimensions.get("window").width-10,
+                        opacity:0.3
+                    }}>
+                    </Image>
+                    <View style={{
+                        position:'absolute'
+                    }}>
+                    <Text style={{
+                        marginVertical:40,
+                        fontSize:30,
+                        fontWeight:'bold',
+                        textAlign:'center'
+                    }}>
+                        Last Chance Dating
+                    </Text>
+                    <Text style={{
+                        color:'#c1edff',
+                        fontSize:35,
+                        fontWeight:'bold',
+                        textAlign:'center'
+                    }}>
+                        Un Site de rencontre
+                    </Text>
+                    <View style={{
+                        marginHorizontal:20,
+                        marginTop:20,
+                        
+                    }}>
+                    <View style={{
+                        borderBottomWidth:2,
+                        borderBottomColor:'#2faadd'
+                    }}>
+                    <Text style={{
+                        textAlign:'center',
+                        fontSize:21,
+                        marginBottom:20
+                    }}>
+                        SITE DE RENCONTRES POUR LES CELIBATAIRES QUI ONT BESOIN DE CONSEILS DES PROFESSIONNELS EN SEDUCTION
+                    </Text>
+                    </View>
+                    
+                    </View>
+                    <View style={{
+                        marginTop:20,
+                        marginHorizontal:20
+                    }}>
+                        <Text style={{
+                            fontSize:22,
+                            textAlign:'justify'
+                        }}>
+                            Lancé récemment sur le marché des love dating ou rencontres amoureuse, last-chance-dating.com est un site de rencontre sérieux à fortes potentialités qui déploie une large gamme de fonctionnalités pour vous permettre de trouver la perle rare en un temps record! Plonger au coeur de last-chance-dating.com, découvrer tous nos professionnels en séduction qui vont vous aider à franchir le pas. Vous pourriez enfin dire à dieu votre vie de célibataire...dès aujourd'hui
+                        </Text>
+                        <TouchableOpacity style={{
+                            alignItems:'center',
+                            marginTop:15
+                        }}>
+                            <Image source={require('../img/btn-en-savoir.png')}></Image>
+                        </TouchableOpacity>
+                    </View>  
+                    </View>
+                    
+                                      
+                </View>  
+                <Text>Suite...</Text>
             </ScrollView>
+
+            </View>
+
+            <View>
+            
+            </View>
             
         </View>
     );
 }
 
 export default Accueil
+
